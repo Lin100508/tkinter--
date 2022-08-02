@@ -1,12 +1,11 @@
 #test123
-
+# 授權後修改測試
 import tkinter as tk                             # 在Python 3.x 匯入該tkinter 函式庫
 win = tk.Tk()                                    # 步驟2：建立GUI 應用程式的主視窗
 win.wm_title("背心資訊")                           #設定主視窗
 win.resizable(width=False,height=True)
 win.minsize(width=300,height=200)                #最小尺寸
 win.maxsize(width=300,height=300)                #最大尺寸
-
 
 class commodity(object):  # 繼承Python 最上層的object 類別
    commodity_name = "背心"
